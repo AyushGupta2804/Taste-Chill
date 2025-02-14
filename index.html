@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2a3d45;
+            color: #ecf0f1;
+            padding: 15px 30px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            background: transparent;
+            background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+            backdrop-filter: blur;
+            flex-wrap: wrap;
+            z-index: 100;
+        }
+        .logo span {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2ecc71;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: BLACK;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">  
+        <div class="logo">
+            <span>TASTE CHILL</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Starters</a></li>
+            <li><a href="#">Thali</a></li>
+            <li><a href="#">Main-Course</a></li>
+            <li><a href="#">Sweets</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">Login</a></li>
+        </ul> 
+    </nav>
+</body>
+</html>
