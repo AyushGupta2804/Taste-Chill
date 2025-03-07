@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">             
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="">
     <style>
-        .navbar {
+        .navbar {                          /*CSS OF NAVBAR*/
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #2a3d45;
+            justify-content: space-between;   /* Distribute items with space between them */
+            align-items: center;              /* Vertically align items at the center */
+            background-color: #00a4eb;
             color: #ecf0f1;
             padding: 15px 30px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 6px rgba(201, 13, 13, 0.1);
             background: transparent;
             background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
             backdrop-filter: blur;
@@ -24,6 +24,9 @@
             font-size: 1.8em;
             font-weight: 700;
             color: #2ecc71;
+           
+
+
         }
         .nav-links {
             list-style: none;
@@ -42,23 +45,32 @@
             transition: color 0.3s ease;
         }
         .nav-links a:hover {
-            color: #2ecc71;
+            color: #2ecc71; 
+        }
+        .login-logo {
+            height: 40px ;
+            align-items: center;
+        }
+        .tc-logo {
+            height: 60px;
+            align-items: center;
         }
     </style>
 </head>
-<body>
+<body>  
     <nav class="navbar">  
         <div class="logo">
+            <img src = "./img/logo/T&C logo 2.webp" class="tc-logo">
             <span>TASTE CHILL</span>
         </div>
-        <ul class="nav-links">
+        <ul class="nav-links">                
             <li><a href="#">Home</a></li>
             <li><a href="#">Starters</a></li>
             <li><a href="#">Thali</a></li>
             <li><a href="#">Main-Course</a></li>
             <li><a href="#">Sweets</a></li>
             <li><a href="#">Snacks</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="#"><img src = "./img/logo/login.png" class ="login-logo"></a ></li>
         </ul> 
     </nav>
 </body>
