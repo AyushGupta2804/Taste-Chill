@@ -6,6 +6,17 @@
     <title>Home</title>
     <link rel="stylesheet" href="">
     <style>
+        /* Prevent horizontal scrolling and ensure proper box-sizing */
+        body, html {
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+            margin: 0; /* Reset margin to avoid unexpected scroll */
+            padding: 0; /* Reset padding to avoid unexpected scroll */
+        }
+
+        * {
+            box-sizing: border-box; /* Prevent padding/borders from causing overflow */
+        }
+
         body{
             padding: 0;
             margin: 0;
